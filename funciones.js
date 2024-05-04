@@ -1,6 +1,6 @@
 let tasks = [];
 
-// Función para agregar una nueva tarea
+// Función para agregar una tarea
 function addTask() {
     const taskInput = document.getElementById("taskInput");
     const taskText = taskInput.value.trim();
@@ -11,7 +11,7 @@ function addTask() {
     }
 }
 
-// Función para renderizar las tareas en la lista
+// Función para renderizar las tareas 
 function renderTasks() {
     const taskList = document.getElementById("taskList");
     taskList.innerHTML = "";
